@@ -1,0 +1,10 @@
+{
+  "welcome": "Welcome",
+  "user_pass": "Enter your username and password",
+  "signin": "Sign in",
+  "username": "Username",
+  "password": "Password",
+  "username_required": "Username is required",
+  "password_required": "Password is required",
+  "logout": "Logout"
+}

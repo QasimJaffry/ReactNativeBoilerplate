@@ -1,0 +1,43 @@
+{
+  "name": "@qasimjaffry/react-native-boilerplate",
+  "version": "0.0.2",
+  "description": "React Native Boilerplate",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/QasimJaffry/rntemplate.git"
+  },
+  "author": "TheCodingMachine Lyon <lyon@thecodingmachine.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/QasimJaffry/rntemplate/issues"
+  },
+  "homepage": "https://github.com/QasimJaffry/rntemplate/",
+  "main": "post-init.script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commit": "cz",
+    "prepare": "husky install"
+  },
+  "keywords": [
+    "boilerplate",
+    "react-native"
+  ],
+  "dependencies": {
+    "kleur": "^4.1.4",
+    "prompts": "^2.4.1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.6.3",
+    "@commitlint/config-conventional": "^17.6.3",
+    "@commitlint/cz-commitlint": "^17.5.0",
+    "@commitlint/prompt-cli": "^17.6.3",
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^8.0.3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "@commitlint/cz-commitlint"
+    }
+  }
+}
